@@ -394,3 +394,22 @@ background-position: 50% 50%, 0 100%;
 
 
 
+@media screen and (max-width: 750px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    .navbar {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    .proj-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proj-card {
+        width: 200px;
+    }
+}

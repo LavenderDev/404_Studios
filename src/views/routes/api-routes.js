@@ -175,16 +175,18 @@ router.get(`/joke`, (req, res) => {
     res.json(getJoke(res))
 })
 
+
+
+
+
 router.get(`/`, (req, res) => {
     res.json(
         {
-            "End Points!": `
-            /api/joke
-            /api/kiss
-            /api/hug`
+            "End Points!": `/api/joke\n/api/kiss\n/api/hug`
         }
     )
 })
+
 
 
 
