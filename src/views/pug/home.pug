@@ -1,0 +1,44 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet')
+  script(src='https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js')
+  link(rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.css')
+  script(src='https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.js')
+  script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
+  link(rel='stylesheet' href='/css/main.css')
+  title 404 Studio | Home page
+.navbar
+  .nav-items
+    h1.logo
+      a(href='home.html')
+        strong 404
+        br
+        | Studios
+    ul
+      li
+        h3
+        a(href="/login")  user.username
+      li
+        h3
+          a(href='/api') API
+      li
+        h3
+          a(href='/projects') Projects
+      li
+        h3
+          a(href='/team') Team
+      li
+        h3.current-page
+          a(href='/') Home
+  .nav-end
+.cta
+  h1.cta-header Welcome to 404 Studios
+  p.cta-p
+    | A 
+    a(href='team.html') team
+    |  of developers that specialise in Discord bot development, npm packages, backend, frontend, &amp; more!
+script.
+  AOS.init();

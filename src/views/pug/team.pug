@@ -1,0 +1,52 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet')
+  script(src='https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js')
+  link(rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.css')
+  script(src='https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.8/dist/semantic.min.js')
+  script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
+  link(rel='stylesheet' href='/css/main.css')
+  title 404 Studio | Home page
+.navbar
+  .nav-items
+    h1.logo
+      a(href='/')
+        strong 404
+        br
+        | Studios
+    ul
+      li
+        h3
+          a(href='/login') Login
+      li
+        h3
+          a(href='/api') API
+      li
+        h3
+          a(href='/projects') Projects
+      li
+        h3.current-page
+          a(href='/team') Team
+      li
+        h3
+          a(href='/') Home
+  .nav-end
+.team
+  h1.team-h1 The Team
+  .cards
+    .card
+      h1 Lavender
+      p
+        | Heyo, Im lavender a 13 year old developer that specialises in frontend, backend and discord bot development!
+      img.lav-image(src='/img/lavender.webp' alt="Lavender's PFP")
+    .card
+      h1 Friswik
+      p idiot on the go
+      img.friswik-img(src='/img/friswik.webp' alt="Friswik's PFP")
+    .card
+      h1 naaaah
+      p Hello, I&apos;m a front-end developer. I love Discord and programming
+      img.naaaah-img(src='/img/naaaah.webp' alt="naaaah's PFP")
