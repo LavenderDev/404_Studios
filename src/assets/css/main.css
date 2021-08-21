@@ -354,6 +354,10 @@ background-position: 50% 50%, 0 100%;
   }
   
 
+  .bigidk {
+      font-size: 20px;
+  }
+
   @media screen and (max-width: 1670px) {
     .nav-ul {
         display: none;
@@ -407,6 +411,8 @@ background-position: 50% 50%, 0 100%;
         padding-right: 20px;
     }
 }
+
+
 
 @media screen and (max-width: 600px) {
     body {

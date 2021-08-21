@@ -10,7 +10,7 @@ router.get("/auth", async (req, res) => {
           const code = req.query.code
           const key = await authClient.getAccess(code)
           res.cookies.set('key', key)
-          res.redirect(`/thank`)
+          res.redirect(`/`)
      } catch(err) {
           res.render("errors/401")
           console.log(err)
