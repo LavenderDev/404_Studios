@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
 })
 router.get("/team", (req, res) => res.render("pug/team"))
 router.get("/thank", (req, res) => res.render("pug/thank"))
-router.get("/projects", (req, res) => res.render("pug/projects"))
+router.get("/projects", (req, res) => res.render("pug/coming-soon"))
 
 
 module.exports = router;
